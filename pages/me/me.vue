@@ -13,7 +13,7 @@
 						</view>
 						<view class="edit-wrapper" style="justify-content: flex-start;">
 							<view class="edit-my-resume-wrapper" >
-								<text class="edit-my-resume">微信号：{{currentUserInfo.wechatNum}}</text>
+								<text class="edit-my-resume">密聊号：{{currentUserInfo.wechatNum}}</text>
 							</view>
 						</view>
 					</view>

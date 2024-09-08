@@ -256,7 +256,7 @@
 				var serverUrl = app.globalData.serverUrl;
 				uni.request({
 					method: "POST",
-					url: serverUrl + "/passport/logout?userId=" + userId,
+					url: serverUrl + "/auth/passport/logout?userId=" + userId,
 					success(result) {
 						var status = result.data.status;
 						console.log("logout1222211")

@@ -3,11 +3,11 @@
 	<view class="page">
 		
 		<view class="title-wrapper">
-			<text class="update-title-words">填写新的微信号</text>
-			<text class="title-tips">微信号长度限6-20位，建议避免包含姓名、生日等涉及个人隐私信息。</text>
+			<text class="update-title-words">填写新的密聊号</text>
+			<text class="title-tips">密聊号长度限6-20位，建议避免包含姓名、生日等涉及个人隐私信息。</text>
 			
 			<view class="number-box">
-				<text class="lable-wechat">微信号</text>
+				<text class="lable-wechat">密聊号</text>
 				<input
 					class="number-input"
 					type="text" 
@@ -18,12 +18,12 @@
 					@input="typingContent"/>
 			</view>
 			
-			<text class="tips">微信号是账号的唯一凭证，一年只能修改一次。</text> 
+			<text class="tips">密聊号是账号的唯一凭证，一年只能修改一次。</text> 
 			
 		</view>
 		
 		<view :class="{'button-box-green': showGreen, 'button-box-gray': !showGreen,'button-box': true}" @click="updateWechatNum()">
-			<text class="button-words">修改微信号</text>
+			<text class="button-words">修改密聊号</text>
 		</view>
 		
 		

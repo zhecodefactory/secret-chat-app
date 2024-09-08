@@ -18,7 +18,7 @@
 						<view class="edit-wrapper">
 							<!-- 如果有备注，此处显示昵称 -->
 							<text class="user-info-words">昵称：{{friend.nickname}}</text>
-							<text class="user-info-words">微信号：{{friend.wechatNum}}</text>
+							<text class="user-info-words">密聊号：{{friend.wechatNum}}</text>
 							<!-- 地区为空则不显示 -->
 							<text class="user-info-words" v-if="friend.province != null && friend.province != ''">地区：{{friend.province}} {{friend.city}}</text>
 						</view>

@@ -6,7 +6,7 @@
 		</view>
 		
 		<view class="logo" :style="{bottom: logoBottomDistance + 'upx'}">
-			<text class="logo-text" style="font-size: 14px; font-weight: 400;">Java架构师2.0 - 仿微信</text>
+			<text class="logo-text" style="font-size: 14px; font-weight: 400;">Java架构师</text>
 			<text class="logo-text" style="font-size: 14px; font-weight: 200;">By: 风间影月</text>
 		</view>
 	</view>

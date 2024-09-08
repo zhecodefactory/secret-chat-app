@@ -65,7 +65,7 @@
 		{
 		    "path" : "pages/msgList/msgList",
 		    "style" : {
-				"navigationBarTitleText" : "微信",
+				"navigationBarTitleText" : "密聊",
 				"app-plus": {
 					"titleNView": false
 					// {
@@ -893,7 +893,7 @@
         "list" : [
 			{
 			    "pagePath" : "pages/msgList/msgList",
-			    "text" : "微信",
+			    "text" : "密聊",
 			    "iconPath" : "static/icons/wechat/tab-wechat.png",
 			    "selectedIconPath" : "static/icons/wechat/tab-wechat-selected.png"
 			},

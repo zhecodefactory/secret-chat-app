@@ -104,7 +104,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/passport/logout?userId=" + userId,
+					url: serverUrl + "/auth/passport/logout?userId=" + userId,
 					success(result) {
 						var status = result.data.status;
 						if (status == 200) {

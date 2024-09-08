@@ -62,7 +62,7 @@
 				@touchend="lineWechatNumTouched=false"
 				@click="goToEditMyWechatNumber()">
 				<view class="left-part">
-					<text class="field-lable">微信号</text>
+					<text class="field-lable">密聊号</text>
 				</view>
 				
 				<view class="right-part">

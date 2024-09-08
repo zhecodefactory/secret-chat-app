@@ -173,7 +173,7 @@
 				// 调用后端发送验证码
 				uni.request({
 					method: "POST",
-					url: serverUrl + "/passport/getSMSCode?mobile=" + mobile,
+					url: serverUrl + "/auth/passport/getSMSCode?mobile=" + mobile,
 					success(result) {
 						var status = result.data.status;
 						if (status != 200) {
@@ -235,7 +235,7 @@
 				// 调用后端登录注册
 				uni.request({
 					method: "POST",
-					url: serverUrl + "/passport/login",
+					url: serverUrl + "/auth/passport/login",
 					data: {
 						"mobile": mobile,
 						"smsCode": verifyCode

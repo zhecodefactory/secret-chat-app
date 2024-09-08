@@ -10,7 +10,7 @@
 			<view class="navigation-bar">
 				<view class="space-none"></view>
 				
-				<view class="middle-title">微信</view>
+				<view class="middle-title">密聊</view>
 				
 				<image src="../../static/icons/wechat/add.png" class="add-icon" @click="displayPlusBox"></image>
 			</view>

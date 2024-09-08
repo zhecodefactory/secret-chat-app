@@ -257,21 +257,21 @@
 				var verifyCode = me.verifyCode;
 				var mobile = me.mobile;
 				
-				// if (app.isStrEmpty(verifyCode)) {
-				// 	uni.showToast({
-				// 		title: "请填写验证码",
-				// 		icon: "none"
-				// 	});
-				// 	return;
-				// }
+				if (app.isStrEmpty(verifyCode)) {
+					uni.showToast({
+						title: "请填写验证码",
+						icon: "none"
+					});
+					return;
+				}
 				
-				// if (app.isStrEmpty(mobile) || mobile.length != 11) {
-				// 	uni.showToast({
-				// 		title: "手机号不正确",
-				// 		icon: "none"
-				// 	});
-				// 	return;
-				// }
+				if (app.isStrEmpty(mobile) || mobile.length != 11) {
+					uni.showToast({
+						title: "手机号不正确",
+						icon: "none"
+					});
+					return;
+				}
 				 
 				var nickname = me.nickname;
 				
@@ -279,7 +279,7 @@
 				// 调用后端登录注册
 				uni.request({
 					method: "POST",
-					url: serverUrl + "/auth/passport/regist",
+					url: serverUrl + "/auth/passport/registOrLogin",
 					data: {
 						"mobile": mobile,
 						"smsCode": verifyCode,
@@ -294,21 +294,8 @@
 							// 登录成功，关闭当前页
 							me.goto();
 						} else if (status != 200) {
-							// 初始化 title 变量
-							var title = '';
-						
-							// 检查mobile是否存在，如果存在则添加到title
-							if (result.data.data.mobile) {
-							  title += result.data.data.mobile;
-							  title += "\r\n";
-							}
-						
-							// 检查smsCode是否存在，如果存在且title不为空，则添加一个空格分隔，然后添加smsCode
-							if (result.data.data.smsCode) {
-							  title += (title.length > 0 ? ' ' : '') + result.data.data.smsCode;
-							}
 							uni.showToast({
-								title: title,
+								title: result.data.msg,
 								icon: "none",
 								duration: 3000
 							});
