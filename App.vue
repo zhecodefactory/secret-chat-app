@@ -171,7 +171,7 @@
 						headerUserId: userId,
 						headerUserToken: userToken
 					},
-					url: serverUrl + "/userinfo/get?userId=" + senderId,
+					url: serverUrl + "/main/userinfo/get?userId=" + senderId,
 					success(result) {
 						// console.log(result);
 						if (result.data.status == 200) {

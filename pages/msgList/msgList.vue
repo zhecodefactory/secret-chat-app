@@ -512,7 +512,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/userinfo/get?userId=" + currentSourceUserId,
+					url: serverUrl + "/main/userinfo/get?userId=" + currentSourceUserId,
 					success(result) {
 						// console.log(result);
 						if (result.data.status == 200) {

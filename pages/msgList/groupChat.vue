@@ -996,7 +996,7 @@
 								headerUserId: userId,
 								headerUserToken: app.getUserSessionToken()
 							},
-							url: serverUrl + "/userInfo/modifyImage?userId=" + userId + "&type=2",
+							url: serverUrl + "/main/userInfo/modifyImage?userId=" + userId + "&type=2",
 							name: "file",
 							filePath: newFace,
 							success(result) {
@@ -1056,7 +1056,7 @@
 								headerUserId: userId,
 								headerUserToken: app.getUserSessionToken()
 							},
-							url: serverUrl + "/userInfo/modifyImage?userId=" + userId + "&type=2",
+							url: serverUrl + "/main/userInfo/modifyImage?userId=" + userId + "&type=2",
 							name: "file",
 							filePath: newFace,
 							success(result) {

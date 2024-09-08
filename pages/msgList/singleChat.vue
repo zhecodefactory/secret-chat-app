@@ -999,7 +999,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/userinfo/get?userId=" + friendId,
+					url: serverUrl + "/main/userinfo/get?userId=" + friendId,
 					success(result) {
 						console.log(result);
 						if (result.data.status == 200) {
@@ -1028,7 +1028,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/userinfo/get?userId=" + userId,
+					url: serverUrl + "/main/userinfo/get?userId=" + userId,
 					success(result) {
 						console.log(result);
 						if (result.data.status == 200) {

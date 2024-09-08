@@ -64,7 +64,7 @@
 			var serverUrl = app.globalData.serverUrl;
 			uni.request({
 				method: "POST",
-				url: serverUrl + "/userinfo/modify",
+				url: serverUrl + "/main/userinfo/modify",
 				header: {
 					headerUserId: userId,
 					headerUserToken: app.getUserSessionToken()

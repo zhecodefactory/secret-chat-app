@@ -67,7 +67,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/userinfo/modify",
+					url: serverUrl + "/main/userinfo/modify",
 					data: pendingUserInfo,
 					success(result) {
 						
