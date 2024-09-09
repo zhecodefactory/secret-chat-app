@@ -110,7 +110,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/file/uploadFriendCircleBg?userId=" + userId,
+					url: serverUrl + "/file/file/uploadFriendCircleBg?userId=" + userId,
 					name: "file",
 					filePath: newBg,
 					success(result) {
