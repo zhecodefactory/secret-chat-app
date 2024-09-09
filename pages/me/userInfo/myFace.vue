@@ -190,7 +190,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/file/uploadFace?userId=" + userId,
+					url: serverUrl + "/file/file/uploadFace?userId=" + userId,
 					name: "file",
 					filePath: newFace,
 					success(result) {
