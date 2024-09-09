@@ -129,7 +129,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/file/uploadChatBg?userId=" + userId,
+					url: serverUrl + "/file/file/uploadChatBg?userId=" + userId,
 					name: "file",
 					filePath: newBg,
 					success(result) {
