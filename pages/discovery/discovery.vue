@@ -166,7 +166,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/userinfo/queryFriend?queryString=" + queryString,
+					url: serverUrl + "/main/userinfo/queryFriend?queryString=" + queryString,
 					success(result) {
 						console.log(111);
 						if (result.data.status == 200) {
