@@ -86,7 +86,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/friendRequest/add",
+					url: serverUrl + "/main/friendRequest/add",
 					data: pendingFriendRequest,
 					success(result) {
 						console.log(result);

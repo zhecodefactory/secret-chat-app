@@ -245,7 +245,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/friendRequest/queryNew?userId=" + userId + "&page=" + page + "&pageSize=15",
+					url: serverUrl + "/main/friendRequest/queryNew?userId=" + userId + "&page=" + page + "&pageSize=15",
 					success(result) {
 						console.log(result);
 						if (result.data.status == 200) {
