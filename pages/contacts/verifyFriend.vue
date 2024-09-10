@@ -29,10 +29,19 @@
 				</view>
 			</view>
 			
-			<view class="msg-wrapper">
+			<!-- <view class="msg-wrapper">
 				<view class="msg-box">
 					<text class="msg-words">验证消息：{{newFriendRequest.verifyMessage}}</text>
 				</view>
+			</view> -->
+			
+			<view class="msg-wrapper">
+			  <view class="msg-box">
+			    <text class="msg-words" v-for="(item,index) in newFriendRequest.verifyMessage.split(',')" :key="index">
+					验证消息：{{item}} 
+					<br/>
+				</text>
+			  </view>
 			</view>
 			
 		</view>
