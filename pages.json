@@ -856,8 +856,8 @@
 				"navigationBarTextStyle":"black",
 				"navigationBarBackgroundColor": "#ecedec",
 				"app-plus" : {
-				    // "titleNView" : false, 	// 禁用原生导航栏
-					// "bounce" : "none"  		// 将回弹属性关掉
+				    "titleNView" : false, 	// 禁用原生导航栏
+					"bounce" : "none",  		// 将回弹属性关掉
 					"backgroundColorTop" : "#ecedec",
 					"backgroundColorBottom" : "#fefffe",
 					"scrollIndicator" : "none"

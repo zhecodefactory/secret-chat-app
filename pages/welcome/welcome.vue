@@ -52,6 +52,9 @@
 			// userIsLogin = true;
 			// app.clearUserInfo();
 			this.userIsLogin = userIsLogin;
+			// setTimeout(function () {
+			// 	me.goMoreCourse();
+			// }, 500);
 			setTimeout(function () {
 				if (userIsLogin) {
 					me.goto();
@@ -82,6 +85,13 @@
 			// }, 1500);
 		},
 		methods: {
+			// 跳转到个人简历页面
+			goMoreCourse() {
+				uni.redirectTo({
+					url: "../others/moreCourse",
+					animationType: "fade-in"
+				})
+			},
 			goLoginBefore() {
 				uni.redirectTo({
 					url: "../loginRegist/loginBefore",

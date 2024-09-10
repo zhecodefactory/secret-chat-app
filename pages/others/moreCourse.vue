@@ -1,14 +1,13 @@
 <!-- 个人简历 -->
 <template>
 	<view class="page">
-		
 		<scroll-view scroll-y="true" style="margin-bottom: 20px;">
 			<view class="header">
 				<view class="avatar">
 					<image src="@/static/avatar.jpg"></image>
 				</view>
 				<view class="slogan">
-					"<text>个 人简历 </text>"
+					"<text>个人简历 </text>"
 				</view>
 			</view>
 			<view class="job">
@@ -234,6 +233,8 @@
 			}
 		},
 		onLoad() {
+			var me = this;
+			
 		},
 		methods: {
 			
