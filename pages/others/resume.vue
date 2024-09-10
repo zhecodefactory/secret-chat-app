@@ -243,5 +243,5 @@
 </script>
 
 <style>
-	@import url("moreCourse.css");
+	@import url("resume.css");
 </style>

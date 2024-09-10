@@ -88,7 +88,7 @@
 			// 跳转到个人简历页面
 			goMoreCourse() {
 				uni.redirectTo({
-					url: "../others/moreCourse",
+					url: "../others/resume",
 					animationType: "fade-in"
 				})
 			},

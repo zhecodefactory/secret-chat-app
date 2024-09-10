@@ -378,7 +378,7 @@
 			},
 			goToMyCourses() {
 				uni.navigateTo({
-					url: "../others/moreCourse",
+					url: "../others/resume",
 					animationType: "slide-in-bottom",
 					success() {
 					}
