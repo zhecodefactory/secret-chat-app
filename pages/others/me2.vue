@@ -174,11 +174,11 @@
 				<view class="block-line" style="margin-bottom: 10px;" @click="goToMyCourses()">
 					<view class="left-part">
 						<image src="../../static/icons/course.png" style="width: 18px;height: 18px;align-self: center;"></image>
-						<text class="left-part-words">更多课程</text>
+						<text class="left-part-words">个人简历</text>
 					</view>
 					
 					<view class="right-part">
-						<text class="right-part-words" style="color: #31B9B3">风间影月精品课程</text>
+						<text class="right-part-words" style="color: #31B9B3">IM-Chat系统</text>
 						<image src="../../static/icons/right-arrow.png" style="width: 12px;height: 12px;align-self: center;"></image>
 					</view>
 				</view>
@@ -187,30 +187,30 @@
 		
 		<view class="say-something-block">
 			<view class="say-something-box">
-				<text class="more-text">京ICP备 12003892号-11</text>
+				<text class="more-text">京ICP备 XXXXXXXXXX号</text>
 				<image src="../../static/icons/separator2.png" class="separator" style="width: 14px;height: 28px;margin-left: 1px;margin-right: 1px;"></image>
-				<text class="more-text">京公网安备11010802030151号</text>
+				<text class="more-text">京公网安备XXXXXXXXXX号</text>
 			</view>
 			
 			<view class="say-something-box">
-				<text class="more-text">客服热线 800-900-8888</text>
+				<text class="more-text">客服热线 +86-183XXXXXXXX</text>
 				<text class="more-text" style="margin-left: 6px;">工作时间 9:30-16:30</text>
 			</view>
 			
 			<view class="say-something-box" style="margin-top: 4px;">
-				<text class="more-text">本app为慕聘网演示体验版</text>
+				<text class="more-text">本app为密聊程序</text>
 			</view>
 			
 			<view class="say-something-box" style="margin-top: 4px;">
-				<text class="more-text">所有权归慕课网以及风间影月</text>
+				<text class="more-text">所有权归本人所有</text>
 			</view>
 			
 			<view class="say-something-box" style="margin-top: 3px;">
-				<text class="more-text">www.imooc.com</text>
+				<text class="more-text">www.baidu.com</text>
 			</view>
 			
 			<view class="say-something-box" style="margin-top: 3px;">
-				<text class="more-text">编织梦想 程就未来</text>
+				<text class="more-text">键盘敲烂 月薪过万</text>
 			</view>
 		</view>
 		

@@ -48,7 +48,7 @@
 					@touchend="lineMoreCoursesTouched=false"
 					@click="goToMyCourses">
 					<view class="right-part" style="line-height: 55px;">
-						<text class="left-part-words">更多课程</text>
+						<text class="left-part-words">个人简历</text>
 						<image src="../../static/icons/right-arrow.png" style="width: 12px;height: 12px;align-self: center;margin-right: 12px;"></image>
 					</view>
 				</view>

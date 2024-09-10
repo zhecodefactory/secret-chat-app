@@ -121,7 +121,7 @@
 					</view>
 					
 					<view class="right-part" style="line-height: 55px;">
-						<text class="left-part-words">更多课程</text>
+						<text class="left-part-words">个人简历</text>
 						<image src="../../static/icons/right-arrow.png" style="width: 12px;height: 12px;align-self: center;margin-right: 12px;"></image>
 					</view>
 				</view>
@@ -134,15 +134,15 @@
 			</view>
 			
 			<view class="say-something-box" style="margin-top: 4px;">
-				<text class="more-text">源码相关内容所有权归风间影月</text>
+				<text class="more-text">源码相关内容所有权归本人所有</text>
 			</view>
 			
 			<view class="say-something-box" style="margin-top: 3px;">
-				<text class="more-text">www.itzixi.com</text>
+				<text class="more-text">www.imchat.com</text>
 			</view>
 			
 			<view class="say-something-box" style="margin-top: 3px;">
-				<text class="more-text">®️ 风间影月</text>
+				<text class="more-text">®️ 王青玄</text>
 			</view>
 		</view>
 		

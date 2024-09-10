@@ -852,7 +852,7 @@
 		{
 		    "path" : "pages/others/moreCourse",
 		    "style": {
-		        "navigationBarTitleText": "更多课程",
+		        "navigationBarTitleText": "个人简历",
 				"navigationBarTextStyle":"black",
 				"navigationBarBackgroundColor": "#ecedec",
 				"app-plus" : {
