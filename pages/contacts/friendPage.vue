@@ -9,7 +9,7 @@
 					<view class="header-left-part">
 						<view class="my-name-box">
 							<!-- 如果有备注，则此处显示备注名 -->
-							<text class="my-name">{{friendInfo.nickname}}{{(friendship.friendRemark != "" && friendship.friendRemark != null) ? "(" + friendship.friendRemark + ")" : ""}}</text>
+							<text class="my-name">{{(friendship.friendRemark != "" && friendship.friendRemark != null) ?  friendship.friendRemark : friendInfo.nickname}}</text>
 							
 							<image src="../../static/icons/wechat/sex-man.png" v-if="friendInfo.sex == 1" class="sex-icon"></image>
 							<image src="../../static/icons/wechat/sex-woman.png" v-if="friendInfo.sex == 0" class="sex-icon"></image>
@@ -170,7 +170,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/friendship/getFriendship?friendId=" + friendId,
+					url: serverUrl + "/main/friendship/getFriendship?friendId=" + friendId,
 					success(result) {
 						console.log(result);
 						if (result.data.status == 200) {

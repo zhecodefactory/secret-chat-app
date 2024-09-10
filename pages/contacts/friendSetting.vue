@@ -217,7 +217,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/friendship/getFriendship?friendId=" + friendId,
+					url: serverUrl + "/main/friendship/getFriendship?friendId=" + friendId,
 					success(result) {
 						console.log(result);
 						if (result.data.status == 200) {

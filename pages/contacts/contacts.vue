@@ -520,7 +520,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/friendship/queryMyFriends",
+					url: serverUrl + "/main/friendship/queryMyFriends",
 					success(result) {
 						console.log(result);
 						if (result.data.status == 200) {
@@ -532,10 +532,10 @@
 								var friend = allFriends[i];
 								var myFriendRemark = friend.myFriendRemark;
 								var myFriendNickname = friend.myFriendNickname;
-								var friendName = myFriendNickname;
-								// if (myFriendRemark == null || myFriendRemark == undefined || myFriendRemark == "") {
-								// 	friendName = myFriendNickname;
-								// }
+								var friendName = myFriendRemark;
+								if (myFriendRemark == null || myFriendRemark == undefined || myFriendRemark == "") {
+									friendName = myFriendNickname;
+								}
 								friend.friendName = friendName;
 								
 								// 转换拼音
