@@ -69,7 +69,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/friendship/updateFriendRemark?friendId=" + friendId  + "&friendRemark=" + remark ,
+					url: serverUrl + "/main/friendship/updateFriendRemark?friendId=" + friendId  + "&friendRemark=" + remark ,
 					success(result) {
 						
 						if (result.data.status == 200) {

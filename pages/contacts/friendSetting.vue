@@ -156,7 +156,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/friendship/tobeBlack?friendId=" + friendId,
+					url: serverUrl + "/main/friendship/tobeBlack?friendId=" + friendId,
 					success(result) {
 						console.log(result);
 						if (result.data.status == 200) {
@@ -187,7 +187,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/friendship/moveOutBlack?friendId=" + friendId,
+					url: serverUrl + "/main/friendship/moveOutBlack?friendId=" + friendId,
 					success(result) {
 						console.log(result);
 						if (result.data.status == 200) {

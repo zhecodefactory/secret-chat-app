@@ -236,7 +236,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/friendship/queryMyBlackList",
+					url: serverUrl + "/main/friendship/queryMyBlackList",
 					success(result) {
 						console.log(result);
 						if (result.data.status == 200) {
