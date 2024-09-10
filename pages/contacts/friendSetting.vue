@@ -116,7 +116,7 @@
 									headerUserId: userId,
 									headerUserToken: app.getUserSessionToken()
 								},
-								url: serverUrl + "/friendship/delete?friendId=" + friendId,
+								url: serverUrl + "/main/friendship/delete?friendId=" + friendId,
 								success(result) {
 									console.log(result);
 									if (result.data.status == 200) {
@@ -126,7 +126,10 @@
 										uni.showToast({
 											icon: "none",
 											title: "好友删除成功!"
-										})
+										});
+										uni.navigateBack({
+											delta: 2
+										});
 										
 									} else {
 										uni.showToast({

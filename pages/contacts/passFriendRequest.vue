@@ -79,9 +79,9 @@
 								success() {
 									setTimeout(()=>{
 										uni.navigateBack({
-											delta: 2,
+											delta: 3,
 										})
-									}, 2000)
+									}, 200)
 								}
 							});
 							
