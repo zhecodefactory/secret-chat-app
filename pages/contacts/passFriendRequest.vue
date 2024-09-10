@@ -65,7 +65,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/friendRequest/pass?friendRequestId=" + newFriendRequestId + "&friendRemark=" + friendRemark,
+					url: serverUrl + "/main/friendRequest/pass?friendRequestId=" + newFriendRequestId + "&friendRemark=" + friendRemark,
 					success(result) {
 						console.log(result);
 						if (result.data.status == 200) {
