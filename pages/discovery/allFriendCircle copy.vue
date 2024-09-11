@@ -430,7 +430,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/friendCircle/queryList?userId=" + userId + "&page=" + page + "&pageSize=15",
+					url: serverUrl + "/main/friendCircle/queryList?userId=" + userId + "&page=" + page + "&pageSize=15",
 					success(result) {
 						console.log(result);
 						if (result.data.status == 200) {
