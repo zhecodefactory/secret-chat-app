@@ -467,7 +467,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/friendCircle/like?friendCircleId=" + friendCircleId,
+					url: serverUrl + "/main/friendCircle/like?friendCircleId=" + friendCircleId,
 					success(result) {
 						console.log(result);
 						if (result.data.status == 200) {
@@ -516,7 +516,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/friendCircle/unlike?friendCircleId=" + friendCircleId,
+					url: serverUrl + "/main/friendCircle/unlike?friendCircleId=" + friendCircleId,
 					success(result) {
 						console.log(result);
 						if (result.data.status == 200) {
@@ -553,7 +553,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/friendCircle/likedFriends?friendCircleId=" + friendCircleId,
+					url: serverUrl + "/main/friendCircle/likedFriends?friendCircleId=" + friendCircleId,
 					success(result) {
 						// console.log(result);
 						if (result.data.status == 200) {
@@ -729,7 +729,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/friendCircle/delete?friendCircleId=" + friendCircleId,
+					url: serverUrl + "/main/friendCircle/delete?friendCircleId=" + friendCircleId,
 					success(result) {
 						console.log(result);
 						if (result.data.status == 200) {
