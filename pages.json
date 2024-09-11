@@ -28,6 +28,17 @@
 		            "backgroundColorBottom" : "#fefffe",
 		            "scrollIndicator" : "none"
 		        },
+				// 微信小程序特有的一些配置
+				"mp-weixin": {
+					"titleNView": {
+						"buttons": [
+							// 注意：这里我们故意没有添加按钮
+						],
+						"backgroundColorTop": "#ecedec",
+						"backgroundColorBottom": "#fefffe",
+						"scrollIndicator": "none"
+					}
+				},
 		        "enablePullDownRefresh" : false // 关闭单页面下拉刷新功能
 		    }
 		},
