@@ -116,7 +116,7 @@
 					headerUserId: userId,
 					headerUserToken: app.getUserSessionToken()
 				},
-				url: serverUrl + "/friendCircle/publish",
+				url: serverUrl + "/main/friendCircle/publish",
 				data: friendCircleBO,
 				success(result) {
 					console.log(result);

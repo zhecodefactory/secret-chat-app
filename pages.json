@@ -1,7 +1,36 @@
 {
     "pages" : [
         //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		
+		{
+		    "path" : "pages/others/resumeIndex",
+		    "style": {
+		        "navigationBarTitleText": "个人简历",
+		        "navigationBarTextStyle":"black",
+		        "navigationBarBackgroundColor": "#ecedec",
+		        "app-plus" : {
+		            "titleNView" : {
+		                "buttons" : [
+		                    {
+								"text" : "skip", // 按钮文字
+								"fontSize" : "16", // 增加字体大小
+								"width" : "80", // 增加按钮宽度
+								"float" : "right", // 按钮浮动位置
+								"background" : "rgba(0, 0, 0, 0.1)", // 设置按钮背景色，这里使用半透明的黑色
+								"color" : "#000000", // 设置按钮文字颜色为白色
+								"fontWeight" : "bold" // 设置按钮文字加粗
+							}
+		                ],
+		                "backgroundColorTop" : "#ecedec",
+		                "backgroundColorBottom" : "#fefffe",
+		                "scrollIndicator" : "none"
+		            },
+		            "backgroundColorTop" : "#ecedec",
+		            "backgroundColorBottom" : "#fefffe",
+		            "scrollIndicator" : "none"
+		        },
+		        "enablePullDownRefresh" : false // 关闭单页面下拉刷新功能
+		    }
+		},
 		{
 		    "path" : "pages/welcome/welcome",
 		    "style" : {

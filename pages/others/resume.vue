@@ -238,6 +238,16 @@
 		},
 		methods: {
 			
+		},
+		// ... 其他页面配置
+		onNavigationBarButtonTap(e) {
+			// 判断是否是我们要处理的按钮
+			if (e.index === 0) { // 假设这是第一个按钮
+				// 使用uni.navigateTo进行页面跳转
+				uni.navigateTo({
+					url: '/pages/welcome/welcome' // 跳转的目标页面路径
+				});
+			}
 		}
 	}
 </script>
