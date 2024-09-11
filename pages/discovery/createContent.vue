@@ -199,7 +199,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/file/uploadFriendCircleImage?userId=" + userId,
+					url: serverUrl + "/file/file/uploadFriendCircleImage?userId=" + userId,
 					name: "file",
 					filePath: image,
 					success(result) {
