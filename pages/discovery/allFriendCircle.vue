@@ -386,7 +386,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/comment/create",
+					url: serverUrl + "/main/comment/create",
 					data: bo,
 					success(result) {
 						console.log(result);
