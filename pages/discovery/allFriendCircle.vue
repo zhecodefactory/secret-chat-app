@@ -307,7 +307,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/comment/delete?commentUserId=" + commentUserId + "&commentId=" + commentId + "&friendCircleId=" + friendCircleId,
+					url: serverUrl + "/main/comment/delete?commentUserId=" + commentUserId + "&commentId=" + commentId + "&friendCircleId=" + friendCircleId,
 					success(result) {
 						if (result.data.status == 200) {
 							// var newCommentList = result.data.data;
@@ -423,7 +423,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/comment/query?friendCircleId=" + friendCircleId,
+					url: serverUrl + "/main/comment/query?friendCircleId=" + friendCircleId,
 					success(result) {
 						if (result.data.status == 200) {
 							var newCommentList = result.data.data;
