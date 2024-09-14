@@ -455,7 +455,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/chat/getMyUnReadCounts?myId=" + userId,
+					url: serverUrl + "/main/chat/getMyUnReadCounts?myId=" + userId,
 					success(result) {
 						console.log(result);
 						if (result.data.status == 200) {

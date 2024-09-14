@@ -892,7 +892,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/chat/list/" + senderId + "/" + receiverId + "?page=" + page + "&pageSize=20",
+					url: serverUrl + "/main/chat/list/" + senderId + "/" + receiverId + "?page=" + page + "&pageSize=20",
 					success(result) {
 						console.log(result);
 						if (result.data.status == 200) {
@@ -978,7 +978,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/chat/clearMyUnReadCounts?myId=" + userId + "&oppositeId=" + oppositeId,
+					url: serverUrl + "/main/chat/clearMyUnReadCounts?myId=" + userId + "&oppositeId=" + oppositeId,
 					success(result) {
 						// console.log(result);
 						if (result.data.status == 200) {
@@ -1675,7 +1675,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/speech/uploadVoice",
+					url: serverUrl + "/file/speech/uploadVoice",
 					name: "file",
 					filePath: voicePath,
 					success: (res) => {  
@@ -1889,7 +1889,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/chat/signRead/" + msgId,
+					url: serverUrl + "/main/chat/signRead/" + msgId,
 					success(result) {
 						// console.log(result);
 						if (result.data.status == 200) {
