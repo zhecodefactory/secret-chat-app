@@ -1272,7 +1272,7 @@
 								headerUserToken: app.getUserSessionToken()
 							},
 							method: "post",
-							url: serverUrl + "/file/uploadChatVideo?userId=" + userId,
+							url: serverUrl + "/file/file/uploadChatVideo?userId=" + userId,
 							filePath: videoPath,
 							name: 'file',  
 							success: (result) => {
@@ -1327,7 +1327,7 @@
 								headerUserToken: app.getUserSessionToken()
 							},
 							method: "post",
-							url: serverUrl + "/file/uploadChatVideo?userId=" + userId,
+							url: serverUrl + "/file/file/uploadChatVideo?userId=" + userId,
 							filePath: videoPath,
 							name: 'file',  
 							success: (result) => {
@@ -1404,7 +1404,7 @@
 						headerUserId: userId,
 						headerUserToken: app.getUserSessionToken()
 					},
-					url: serverUrl + "/file/uploadChatPhoto?userId=" + userId,
+					url: serverUrl + "/file/file/uploadChatPhoto?userId=" + userId,
 					name: "file",
 					filePath: photo,
 					success(result) {
@@ -1549,7 +1549,7 @@
 									headerUserId: userId,
 									headerUserToken: app.getUserSessionToken()
 								},
-								url: serverUrl + "/file/uploadChatVoice?userId=" + userId,
+								url: serverUrl + "/file/file/uploadChatVoice?userId=" + userId,
 								name: "file",
 								filePath: res.tempFilePath,
 								success(result) {

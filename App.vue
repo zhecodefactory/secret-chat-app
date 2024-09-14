@@ -8,7 +8,7 @@
 			// serverUrl: "http://localhost",					// 错误示范！！！
 			// serverUrl: "http://192.168.1.6",					// 生产环境
 			
-			chatServerUrl: "ws://10.0.0.3:875/ws",
+			chatServerUrl: "ws://192.168.0.104:875/ws",
 			
 			minNode: {},
 			
