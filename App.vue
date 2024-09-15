@@ -31,14 +31,14 @@
 		onLaunch: function() {
 			console.log('App Launch')
 			
-			// this.getWSServerLink();
+			this.getWSServerLink();
 			
 			// this.clearUserInfo();
 			
 			// 程序启动的时候，连接聊天服务器
-			// setTimeout(()=>{
+			setTimeout(()=>{
 				this.doConnect(false);
-			// }, 1000)
+			}, 1000)
 				
 			// 仅竖屏
 			// #ifdef APP-PLUS
