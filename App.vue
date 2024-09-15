@@ -117,7 +117,7 @@
 						} 
 						var dataContent = { 
 							chatMsg: chatMsg, 
-							// serverNode: me.globalData.minNode
+							serverNode: me.globalData.minNode
 						}
 						var msgPending = JSON.stringify(dataContent);
 						
