@@ -69,7 +69,7 @@
 				var serverUrl = me.globalData.serverUrl;
 				uni.request({
 					method: "POST",
-					url: serverUrl + "/chat/getNettyOnlineInfo",
+					url: serverUrl + "/main/chat/getNettyOnlineInfo",
 					success(result) {
 						console.log(result);
 						if (result.data.status == 200) {
